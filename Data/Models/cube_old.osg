@@ -1,0 +1,192 @@
+Group {
+  UniqueID Group_0
+  DataVariance DYNAMIC
+  nodeMask 0xffffffff
+  cullingActive TRUE
+  num_children 1
+  Group {
+    DataVariance DYNAMIC
+    name "CubeModel"
+    nodeMask 0xffffffff
+    cullingActive TRUE
+    num_children 1
+    Geode {
+      DataVariance DYNAMIC
+      name "Box03"
+      nodeMask 0xffffffff
+      cullingActive TRUE
+      num_drawables 3
+      Geometry {
+        DataVariance DYNAMIC
+        StateSet {
+          UniqueID StateSet_1
+          DataVariance STATIC
+          rendering_hint DEFAULT_BIN
+          renderBinMode INHERIT
+        Material {
+            DataVariance STATIC
+            ColorMode OFF
+            ambientColor 0 0 0 1
+            diffuseColor 0.345098 0.345098 0.345098 1
+            specularColor 5.0445098 5.0445098 5.0445098 1
+            emissionColor 0 0 0 1
+            shininess 35
+          
+         }
+	}
+        useDisplayList TRUE
+        useVertexBufferObjects FALSE
+        PrimitiveSets 2
+        {
+          DrawArrays TRIANGLE_STRIP 0 4
+          DrawElementsUShort TRIANGLE_STRIP 4
+          {
+            7 6 5 4 
+          }
+        }
+        VertexArray Vec3Array 8
+        {
+          1.20136 -15.15 1.2
+          1.20136 -15.15 -1.2
+          1.20136 15.15 1.2
+          1.20136 15.15 -1.2
+          -1.19169 15.15 1.2
+          -1.20136 15.15 -1.2
+          -1.19169 -15.15 1.2
+          -1.20136 -15.15 -1.2
+        }
+        NormalBinding PER_VERTEX
+        NormalArray Vec3Array 8
+        {
+          1 4.32773e-008 0
+          1 4.32773e-008 0
+          1 4.32773e-008 0
+          1 4.32773e-008 0
+          -0.999992 -3.95172e-008 0.00403232
+          -0.999992 -4.34515e-008 0.00403227
+          -0.999992 -4.34515e-008 0.00403227
+          -0.999992 -4.73857e-008 0.00403222
+        }
+        ColorBinding OVERALL
+        ColorArray UByte4Array 1         {
+          255 255 255 255
+        }
+        TexCoordArray 0 Vec2Array 8
+        {
+          0 1
+          0 0
+          1 1
+          1 0
+          0 1
+          0 0
+          1 1
+          1 0
+        }
+      }
+      Geometry {
+        DataVariance DYNAMIC
+        Use StateSet_1
+        useDisplayList TRUE
+        useVertexBufferObjects FALSE
+        PrimitiveSets 2
+        {
+          DrawArrays TRIANGLE_STRIP 0 4
+          DrawElementsUShort TRIANGLE_STRIP 4
+          {
+            7 6 5 4 
+          }
+        }
+        VertexArray Vec3Array 8
+        {
+          1.20136 15.15 1.2
+          1.20136 15.15 -1.2
+          -1.19169 15.15 1.2
+          -1.20136 15.15 -1.2
+          -1.19169 -15.15 1.2
+          -1.20136 -15.15 -1.2
+          1.20136 -15.15 1.2
+          1.20136 -15.15 -1.2
+        }
+        NormalBinding PER_VERTEX
+        NormalArray Vec3Array 8
+        {
+          0 1 0
+          0 1 0
+          0 1 0
+          0 1 0
+          0 -1 0
+          0 -1 0
+          0 -1 0
+          0 -1 0
+        }
+        ColorBinding OVERALL
+        ColorArray UByte4Array 1         {
+          255 255 255 255
+        }
+        TexCoordArray 0 Vec2Array 8
+        {
+          0 1
+          0 0
+          1 1
+          1 0
+          0 1
+          0 0
+          1 1
+          1 0
+        }
+      }
+      Geometry {
+        DataVariance DYNAMIC
+        Use StateSet_1
+        useDisplayList TRUE
+        useVertexBufferObjects FALSE
+        PrimitiveSets 2
+        {
+          DrawArrays TRIANGLE_STRIP 0 4
+          DrawElementsUShort TRIANGLE_STRIP 4
+          {
+            7 6 5 4 
+          }
+        }
+        VertexArray Vec3Array 8
+        {
+          -1.19169 -15.15 1.2
+          1.20136 -15.15 1.2
+          -1.19169 15.15 1.2
+          1.20136 15.15 1.2
+          1.20136 -15.15 -1.2
+          -1.20136 -15.15 -1.2
+          1.20136 15.15 -1.2
+          -1.20136 15.15 -1.2
+        }
+        NormalBinding PER_VERTEX
+        NormalArray Vec3Array 8
+        {
+          0 -4.32773e-008 1
+          0 -4.32773e-008 1
+          0 -4.32773e-008 1
+          0 -4.32773e-008 1
+          0 4.32773e-008 -1
+          0 4.32773e-008 -1
+          0 4.32773e-008 -1
+          0 4.32773e-008 -1
+        }
+        ColorBinding OVERALL
+        ColorArray UByte4Array 1         {
+          255 255 255 255
+        }
+        TexCoordArray 0 Vec2Array 8
+        {
+          0 1
+          0 0
+          1 1
+          1 0
+          0 1
+          0 0
+          1 1
+          1 0
+        }
+      }
+    }
+  }
+}

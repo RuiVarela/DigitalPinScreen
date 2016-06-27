@@ -1,0 +1,28 @@
+//// file list generator ////
+
+./file_list_generator <first image> <final image> <filename prefix> <filename sufix>
+./file_list_generator 0 181 db_100x100_ .jpg
+
+#!/bin/bash
+for i in $(seq $1 $2);
+do
+    number=`printf "%4d" $i | tr ' ' 0`;
+    echo "$3$number$4";
+done;
+
+//// animator ////
+
+./animator <first image> <initial time> <step> <final time>
+./animator 0 0 0.1 18.1
+
+#!/bin/bash
+image_index=$1;
+
+for frame in $(seq $2 $3 $4);
+do
+   echo "$frame $image_index";
+   image_index=$(( $image_index + 1));
+done;
+
+//// join ////
+printf "swing\nData\Images\db_sequence_00\n182\n$(./file_list_generator 0 181 db_100x100_ .jpg)\n182\n$(./animator 0 0 0.1 18.1)" >> anim.dan

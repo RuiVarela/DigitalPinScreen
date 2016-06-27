@@ -1,0 +1,16 @@
+15
+/echo smoke
+/set ps_pin_name sphere.osg
+/set ps_h_spacing 1.1
+/set ps_v_spacing 1.1
+/set ps_v_pins 100
+/set ps_h_pins 100
+/set ps_division 2
+/set ps_lod 0
+/set ps_lod_distance 300
+/set ps_max_movement 100
+/rebuildPinScreen
+/set ps_linear_duration 0.1
+/set ps_draw_mode absolute
+/play smoke_anim.dan
+/echo script end reached 

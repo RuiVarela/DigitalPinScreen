@@ -1,0 +1,12 @@
+11
+/echo start_up.dps
+/set ps_pin_name cube.osg
+/set ps_h_spacing 0.01
+/set ps_v_spacing 0.01
+/set ps_v_pins 100
+/set ps_h_pins 100
+/set ps_division 2
+/set ps_lod 0
+/set ps_lod_distance 300
+/rebuildPinScreen
+/echo script end reached 

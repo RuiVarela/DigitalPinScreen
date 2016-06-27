@@ -1,0 +1,12 @@
+11
+/echo Smile!!!
+/set ps_spring_damping 1.0
+/set ps_spring_stiffness 5.0
+/set ps_pin_mass 2.0
+/set ps_draw_mode elastic
+/drawCircle 50 50 47 -10
+/drawCircle 25 75 10 -10
+/drawCircle 75 75 10 -10
+/drawLine 25 50 50 25 -10
+/drawLine 50 25 75 50 -10
+/echo script end reached
