@@ -22,9 +22,10 @@ Quando se lança a aplicação esta no final do processo de inicialização corr
 este script carrega uma tela de alfinetes de 100 x 100 sem níveis de detalhe.
 
 Para lançar um comando na consola pressione a tecla '\' e a consola desce no ecra. Se pressionar de novo ela sobe.
-Todos os comandos começam com o caracter '/'. (curiosamente o tratamento do teclado do osg é um tanto ou quanto estranho e em lguns computadores a devida tecla não imprime esse caracter, se esse for o caso experimente a tecla '^').
+Todos os comandos começam com o caracter '/'. (curiosamente o tratamento do teclado do osg é um tanto ou quanto estranho e em alguns computadores a devida tecla não imprime esse caracter, se esse for o caso experimente a tecla '^').
 
 Com a consola descida podemos então começar pelo básico.
+
 Command | Description
 --- | ---
 /list | Para obter a lista de todos os comandos.
@@ -100,12 +101,14 @@ Cada vez que alteramos estas variáveis temos de actualizar o nosso modelo elás
 Vamos agora testar o LOD
 Para isso vamos construir uma tela com 100 x 100 cubos e com +1 nível de detalhe.
 
-/set ps_pin_name cube.osg		Modelo a usar para cada alfinete.
-/set ps_lod 1					Numero de níveis de detalhe (0 = sem níveis de detalhe).
-/set ps_lod_distantce 300		Distãncia entre cada nível de detalhe.
-/set ps_v_spacing 1				Espaçamento vertical entre pinos (engraçado para criar deformações de aspecto) 
-/set ps_h_spacing 1				Espaçamento horizontal entre pinos (engraçado para criar deformações de aspecto) 
-/rebuildPinScreen				Para construir a tela com os novos valores
+Command | Description
+--- | ---
+/set ps_pin_name cube.osg | Modelo a usar para cada alfinete.
+/set ps_lod 1 | Numero de níveis de detalhe (0 = sem níveis de detalhe).
+/set ps_lod_distantce 300 | Distãncia entre cada nível de detalhe.
+/set ps_v_spacing 1 | Espaçamento vertical entre pinos (engraçado para criar deformações de aspecto) 
+/set ps_h_spacing 1 | Espaçamento horizontal entre pinos (engraçado para criar deformações de aspecto) 
+/rebuildPinScreen | Para construir a tela com os novos valores
 
 E agora podemos testar de novo com einstein e mona lisa.
 
