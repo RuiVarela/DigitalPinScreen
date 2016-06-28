@@ -80,7 +80,8 @@ Vamos agora testar o modo elastico.
 ```
 
 Podemos alterar o comportamento do nosso modelo elástico (modelo fisico de molas Spring and Damper) alterando as seguintes variáveis.
-Varaible | Description
+
+Variable | Description
 --- | ---
 /set ps_spring_damping 0.5 | Atrito da mola (é o atrito que para impede que a mola fique eternamente a oscilar)
 /set ps_spring_stiffness 40 | Rigidez da mola (valores elevados -> menos rigida, valores baixo -> mais rigida)
