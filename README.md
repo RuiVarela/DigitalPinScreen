@@ -1,6 +1,8 @@
 # VR PinScreen
 This is a Virtual Reality PinScreen application done in 2006/2007, you can check it out on [YouTube](https://www.youtube.com/watch?v=3d88JjktRXM&index=5&list=PLDC731868379777BF)
 
+[![VR PinScreen](http://img.youtube.com/vi/3d88JjktRXM/0.jpg)](https://www.youtube.com/watch?v=3d88JjktRXM)
+
 ### 1 - Estrutura de dados da aplicação
 É no directorio Data da aplicação que devem estar presentes todos os ficheiros necessários para a execução da aplicação.
 
